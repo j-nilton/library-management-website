@@ -1,0 +1,15 @@
+{
+  "name": "library-management-website",
+  "version": "1.0.0",
+  "description": "Creation of a library management website developed with the goal of solving a problem given in the Final Activity of the algorithm and programming course in the technical course in Analysis and Systems Development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
