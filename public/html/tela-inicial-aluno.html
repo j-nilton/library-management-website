@@ -9,22 +9,35 @@
 </head>
 
 <body class="telaInicial-body">
-    <header>
+    <header class="telaInicial-head">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Instituto_Federal_do_Piau%C3%AD_-_Marca_Vertical_2015.svg/800px-Instituto_Federal_do_Piau%C3%AD_-_Marca_Vertical_2015.svg.png"
+            alt="IFPI" class="telaInicial-logo-ifpi">
         <nav>
             <ul>
-                <li>Calendário</li>
-                <li>Professores</li>
-                <li>Pedagógico</li>
-                <li>Alunos</li>
-                <li>Financeiro</li>
-                <li>Relatórios</li>
-                <li>CRM</li>
-                <li>Configurações</li>
+                <li>Professores
+                    <ul class="telaInicial-submenu">
+                        <li>Cadastro</li>
+                        <li>Horários</li>
+                    </ul>
+                </li>
+                <li>Alunos
+                    <ul class="telaInicial-submenu">
+                        <li>Matriculados</li>
+                        <li>Notas</li>
+                    </ul>
+                </li>
+                <li>Configurações
+                    <ul class="telaInicial-submenu">
+                        <li>Usuários</li>
+                        <li>Permissões</li>
+                    </ul>
+                </li>
             </ul>
         </nav>
+        <div class="btn-sair">Sair</div>
     </header>
     <main>
-        <div class="container">
+        <div class="telaInicial-container">
             <div class="header">
                 <h2>Biblioteca</h2>
                 <button class="register-btn">+ Registrar Empréstimo</button>
@@ -75,10 +88,11 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Table rows go here -->
+                    <!-- Linhas da tabela vão aqui -->
                 </tbody>
             </table>
         </div>
     </main>
+</body>
 
 </html>
