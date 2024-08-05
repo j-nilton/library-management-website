@@ -12,63 +12,40 @@
     <header class="telaInicial-head">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Instituto_Federal_do_Piau%C3%AD_-_Marca_Vertical_2015.svg/800px-Instituto_Federal_do_Piau%C3%AD_-_Marca_Vertical_2015.svg.png"
             alt="IFPI" class="telaInicial-logo-ifpi">
-        <nav>
+        <h2>Bibliotecário</h2>
+        <nav class="btn-nav">
             <ul>
-                <li>Professores
-                    <ul class="telaInicial-submenu">
-                        <li>Cadastro</li>
-                        <li>Horários</li>
-                    </ul>
-                </li>
-                <li>Alunos
-                    <ul class="telaInicial-submenu">
-                        <li>Matriculados</li>
-                        <li>Notas</li>
-                    </ul>
-                </li>
                 <li>Configurações
                     <ul class="telaInicial-submenu">
                         <li>Usuários</li>
                         <li>Permissões</li>
+                        <li>Sair</li>
                     </ul>
                 </li>
             </ul>
         </nav>
-        <div class="btn-sair">Sair</div>
     </header>
     <main>
         <div class="telaInicial-container">
             <div class="header">
                 <h2>Biblioteca</h2>
-                <button class="register-btn">+ Registrar Empréstimo</button>
+                <a href="registrar-emprestimo.html">
+                    <button class="register-btn">+ Registrar Empréstimo</button>
+                </a>
             </div>
             <div class="stats">
                 <div class="stat">
                     <h3>Livros Movimentados</h3>
-                    <p>5</p>
+                    <p>0</p>
                 </div>
                 <div class="stat">
                     <h3>Total de Empréstimos</h3>
-                    <p>8</p>
+                    <p>0</p>
                 </div>
                 <div class="stat">
                     <h3>Devoluções Pendentes</h3>
-                    <p>7</p>
+                    <p>0</p>
                 </div>
-            </div>
-            <div class="search">
-                <input type="text" placeholder="Livro">
-                <input type="text" placeholder="Usuário">
-                <label>Data Inicial:
-                    <input type="date">
-                </label>
-                <label>Data Final:
-                    <input type="date">
-                </label>
-                <select>
-                    <option>Tipo de Movimentação</option>
-                </select>
-                <button class="search-btn">Pesquisar</button>
             </div>
             <div class="table-controls">
                 <button>Exportar para:</button>

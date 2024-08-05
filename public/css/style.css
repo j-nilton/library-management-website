@@ -315,6 +315,8 @@ nav li:hover .telaInicial-submenu {
     border: none;
     padding: 0.5em 1em;
     cursor: pointer;
+    border-radius: 5px;
+    border-width: 5px;
 }
 
 .stats {
@@ -339,7 +341,6 @@ nav li:hover .telaInicial-submenu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2em;
 }
 
 .placer-search {
@@ -349,8 +350,12 @@ nav li:hover .telaInicial-submenu {
     border-width: 1px;
 }
 
-.search input,
-.search select {
+.data {
+    width: 120px;
+    height: 5px;
+}
+
+.search input {
     padding: 0.5em;
     margin-right: 0.5em;
 }
