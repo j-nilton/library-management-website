@@ -223,19 +223,18 @@
 }
 
 .telaInicial-head img {
-    width: 6%;
+    width: 5%;
     display: flex;
 }
 
-.telaInicial-head nav {
+.telaInicial-head h2 {
     width: 88%;
     display: flex;
 }
 
-.telaInicial-head div {
-    width: 5%;
+.telaInicial-head nav {
+    width: 10%;
     display: flex;
-
 }
 
 .telaInicial-logo-ifpi {
@@ -246,7 +245,7 @@
     align-items: center;
 }
 
-.btn-sair {
+.btn-nav {
     width: 100%;
     align-items: center;
     cursor: pointer;
@@ -262,9 +261,8 @@ nav ul {
 }
 
 nav li {
-    display: flex;
-    padding: 5px 20px;
-    align-items: center;
+    position: relative;
+    padding: 25px 20px;
 }
 
 nav li:hover .telaInicial-submenu {
@@ -274,6 +272,8 @@ nav li:hover .telaInicial-submenu {
 .telaInicial-submenu {
     display: none;
     position: absolute;
+    top: 80%;
+    left: 10%;
     background-color: white;
     min-width: 200px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -342,6 +342,13 @@ nav li:hover .telaInicial-submenu {
     margin-bottom: 2em;
 }
 
+.placer-search {
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
 .search input,
 .search select {
     padding: 0.5em;
@@ -350,15 +357,7 @@ nav li:hover .telaInicial-submenu {
 
 .search label {
     display: flex;
-    flex-direction: column;
-}
-
-.search-btn {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 0.5em 1em;
-    cursor: pointer;
+    flex-direction: row;
 }
 
 .table-controls {
